@@ -1,7 +1,11 @@
-@import '_reset.scss';
+@import "../../node_modules/bulma/bulma.sass";
 
-$var: white;
+.content-outer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-body {
-  background-color: $var;
+.content-inner {
+  flex: 1;
 }

@@ -1,6 +1,6 @@
 {
   "name": "archeelux.com",
-  "version": "1.00",
+  "version": "1.0.0",
   "description": "Personal blog using 11ty and deventy",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "clean": "rm -rf dist",
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
-    "styles:prod": "node-sass src/styles/ --output dist/styles/ && postcss ./dist/styles/*.css --replace",
-    "styles:dev": "node-sass src/styles/ --output dist/styles/ --source-map true --source-map-contents true && postcss ./dist/styles/*.css --replace",
+    "styles:prod": "node-sass src/styles/index.scss --output dist/styles/ && postcss ./dist/styles/*.css --replace",
+    "styles:dev": "node-sass src/styles/index.scss --output dist/styles/ --source-map true --source-map-contents true && postcss ./dist/styles/*.css --replace",
     "scripts:prod": "webpack --mode=production",
     "scripts:dev": "webpack --mode=development",
     "serve": "light-server -c .lightserverrc",
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "acorn": "^6.1.1",
+    "bulma": "^0.7.5",
     "node-sass": "^4.12.0"
   }
 }
