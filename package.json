@@ -1,7 +1,7 @@
 {
-  "name": "deventy",
-  "version": "1.2.1",
-  "description": "A minimal 11ty starter with modern tools",
+  "name": "archeelux.com",
+  "version": "1.00",
+  "description": "Personal blog using 11ty and deventy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,14 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ianrose@github.com/ianrose/deventy.git"
+    "url": "git+https://github.com/Archeelux/archeelux.com.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ianrose/deventy/issues"
+    "url": "https://github.com/Archeelux/archeelux.com/issues"
   },
-  "homepage": "https://github.com/ianrose/deventy#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "@babel/core": "^7.5.5",
