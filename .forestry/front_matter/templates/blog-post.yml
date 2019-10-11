@@ -7,15 +7,6 @@ fields:
   config:
     required: true
   label: Title
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Content
 - name: tags
   type: tag_list
   default: []
