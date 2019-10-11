@@ -17,13 +17,24 @@
   </head>
   <body id="top" itemscope itemtype="http://schema.org/WebPage">
 
-    <section class="section">
+    <div class="site-wrapper">
+
+      {% include "./global/nav.njk" %}
+
+      <div class="layout--main">
+        {{content|safe}}
+
+      </div>
+
+    </div>
+
+    {# <section class="section">
       <div class="container">
         {% include "./global/nav.njk" %}
         {{content | safe}}
         {% include "./global/footer.njk" %}
       </div>
-    </section>
+    </section> #}
 
     <script src="/scripts/index.js"></script>
   </body>

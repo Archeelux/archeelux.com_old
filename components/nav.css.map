@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "nav.css",
+	"sources": [
+		"../src/styles/components/nav.scss"
+	],
+	"sourcesContent": [
+		".nav--menu {\r\n  background-color: gray;\r\n  position: fixed;\r\n  width: 200px;\r\n  bottom: 0;\r\n  left: 0;\r\n  font-size: 50px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,CAAC;EACP,SAAS,EAAE,IAAI,GAChB"
+}
