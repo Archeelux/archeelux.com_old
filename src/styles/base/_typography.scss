@@ -1,0 +1,62 @@
+/* 
+ * Modular scale
+ * http://www.modularscale.com/?1.25&em&1.33&web&text
+*/
+
+$type-scale-large: (
+  h1: 3.911rem,
+  h2: 2.941rem,
+  h3: 2.211rem,
+  h4: 1.663rem,
+  p: 1.25rem
+);
+
+/* 
+ * Modular scale
+ * http://www.modularscale.com/?1.25&em&1.25&web&text
+*/
+
+$type-scale-medium: (
+  h1: 3.052rem,
+  h2: 2.441rem,
+  h3: 1.953em,
+  h4: 1.563rem,
+  p: 1.25rem
+);
+
+/* 
+ * Modular scale
+ * http://www.modularscale.com/?1.1&em&1.25&web&text
+*/
+
+$type-scale-small: (
+  h1: 2.686rem,
+  h2: 2.148rem,
+  h3: 1.719rem,
+  h4: 1.375rem,
+  p: 1.1rem
+);
+
+body {
+  line-height: 1.4; // Base line height
+}
+
+p {
+  font-size: 1.25em; // Base font size
+  margin-bottom: 1.75rem; // Base vertical spacing: (1.4 * 1.25) = 1.75
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 3.5rem; // Double the base value for a larger gap (1.75 * 2) = 3.5
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 1.75rem;
+}

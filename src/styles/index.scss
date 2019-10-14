@@ -1,3 +1,5 @@
 @import "../../node_modules/minireset.css/minireset.sass";
-@import "./components/nav.scss";
-@import "./components/layout.scss";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+@import "./base/page";
+@import "./base/typography";
