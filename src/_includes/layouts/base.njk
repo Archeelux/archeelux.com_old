@@ -43,9 +43,38 @@
     <div class="divider"></div>
 
     <section class="experiance">
+
+      {% for image in collections.icons %}
+        <img src="{{image.file}}" alt="">
+      {% endfor %}
       <h2>Experiance</h2>
+      <p>Over the years I have come to love JavaScript and have been using it heavily through out my projects.</p>
+
+      <h3>
+        <b>Lead Developer</b>
+      </h3>
+      <p>
+        Currently I am lead developer on application used through out AIB. This application is a database application where records are stored and updated every day. Along with calculations and loading of data into tables.
+      </p>
+
     </section>
 
+    <div class="divider"></div>
+
+    <section class="contact">
+      <div class="icon-outer">
+        <i class="fab fa-dev"></i>
+      </div>
+      <div class="icon-outer">
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="icon-outer">
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <div class="icon-outer">
+        <i class="fab fa-instagram"></i>
+      </div>
+    </section>
     {# <div class="site-wrapper">
 
       {% include "./global/nav.njk" %}

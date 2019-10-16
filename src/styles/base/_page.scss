@@ -12,3 +12,23 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .icon-outer {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
