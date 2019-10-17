@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>{{ renderData.title or title or metadata.title }}</title>
+    <title>Arturs Timofejevs</title>
     <link rel="stylesheet" href="/styles/index.css">
   </head>
   <body id="top" itemscope itemtype="http://schema.org/WebPage">
@@ -62,37 +62,32 @@
     <div class="divider"></div>
 
     <section class="contact">
-      <div class="icon-outer">
-        <i class="fab fa-dev"></i>
-      </div>
-      <div class="icon-outer">
-        <i class="fab fa-github"></i>
-      </div>
-      <div class="icon-outer">
-        <i class="fab fa-linkedin"></i>
-      </div>
-      <div class="icon-outer">
-        <i class="fab fa-instagram"></i>
-      </div>
+
+      <a target="_blank" href="https://dev.to/archeelux">
+        <div class="icon-outer">
+          <i class="fab fa-dev"></i>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://github.com/archeelux">
+        <div class="icon-outer">
+          <i class="fab fa-github"></i>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://www.linkedin.com/in/arturs-timofejevs-96a5b1122/">
+        <div  class="icon-outer">
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://www.instagram.com/archeelux/">
+        <div class="icon-outer">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+
     </section>
-    {# <div class="site-wrapper">
-
-      {% include "./global/nav.njk" %}
-
-      <div class="layout--main">
-        {{content|safe}}
-
-      </div>
-
-    </div> #}
-
-    {# <section class="section">
-      <div class="container">
-        {% include "./global/nav.njk" %}
-        {{content | safe}}
-        {% include "./global/footer.njk" %}
-      </div>
-    </section> #}
 
     <script src="/scripts/index.js"></script>
   </body>
